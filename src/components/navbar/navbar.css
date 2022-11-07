@@ -5,12 +5,12 @@
     font-family: "Poppins", sans-serif;
 }
 
-li{
+.nav-links li{
     list-style: none;
     color: #fff;
 
 }
-li:hover{
+.nav-links li:hover{
     color: rgb(1, 18, 43);
 }
 

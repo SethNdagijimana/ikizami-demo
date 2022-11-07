@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.footer{
+    width: 100%;
+    border-top: 2px solid rgb(189, 218, 245);
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 80px;
+}
+.guide {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.guide li {
+    list-style: none;
+    color: black;
+
+}
+.guide li:hover{
+    color: #2756A1;
+}
+.social-media{
+    display: flex;
+    gap: 40px;
+    
+}
+.social-media li {
+    list-style: none;
+    color: black;
+    font-size: 18px;
+}
+.social-media li:hover{
+    opacity: 1;
+}
