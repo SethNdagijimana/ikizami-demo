@@ -1,15 +1,16 @@
 import React from 'react';
 import "./home.css";
 import { Link } from "react-router-dom";
-import  Reacticon1 from "../../assets/6.svg";
- import  Reacticon2 from "../../assets/5.png";
- import  Reacticon3 from "../../assets/3.png";
- import  Reacticon4 from "../../assets/Vectary texture.png";
- import  Reacticon5 from "../../assets/1.png";
-// import Card from './Card';
+import Card from './Card';
+// import  Reacticon1 from "../../assets/6.svg";
+//  import  Reacticon2 from "../../assets/5.png";
+//  import  Reacticon3 from "../../assets/3.png";
+//  import  Reacticon4 from "../../assets/Vectary texture.png";
+//  import  Reacticon5 from "../../assets/1.png";
 
 function Home() {
   return (
+    <div>
     <div className='hero'>
     <section className="left-side">
     <p>Iga Unimenyereze Gukorera<span> Uruhushya Rwagateganyo </span>Rwogutwara Ibinyabiziga</p>
@@ -29,8 +30,11 @@ function Home() {
         //    <img src={Reacticon2} className="icon2" alt="React 2" />
         //    <img src={Reacticon3} className="icon3" alt="React 3" />
            }</section>
+       
     </div>
-    
+
+    <Card />
+    </div>
   )
 }
 

@@ -14,7 +14,7 @@ function Navbar() {
         <h3 className='logo'>Logo</h3>
         
         <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-        <Link to='/'><li>Ubufasha</li></Link>
+        <Link to='/home'><li>Ubufasha</li></Link>
         <Link to='/about'><li>Ibituranga</li></Link>
         <Link to='/skills'><li>Amasomo</li></Link>
         <Link to='/signup'><li>Iyandikishe</li></Link>
