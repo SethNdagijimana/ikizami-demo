@@ -18,17 +18,19 @@ function Home() {
       </section>
 
       <section className='right-side'>
-      signs
-      {
-        // <img src={Reacticon1} className="icon1" alt="React 1" />
-        //    <img src={Reacticon2} className="icon2" alt="React 2" />
-        //    <img src={Reacticon3} className="icon3" alt="React 3" />
-        //    <img src={Reacticon5} className="icon5" alt="React 5" />
-        //    <img src={Reacticon4} className="icon4" alt="React 4" />
-        //    <img src={Reacticon3} className="icon3" alt="React 3" />
-        //    <img src={Reacticon5} className="icon5" alt="React 5" />
-        //    <img src={Reacticon2} className="icon2" alt="React 2" />
-        //    <img src={Reacticon3} className="icon3" alt="React 3" />
+     
+      
+         {
+          
+          // <img src={Reacticon1} className="icon1" alt="React 1" />
+      //     <img src={Reacticon2} className="icon2" alt="React 2" />
+      //     <img src={Reacticon3} className="icon3" alt="React 3" />
+      //     <img src={Reacticon5} className="icon5" alt="React 5" />
+      //     <img src={Reacticon4} className="icon4" alt="React 4" />
+      //     <img src={Reacticon3} className="icon3" alt="React 3" />
+      //     <img src={Reacticon5} className="icon5" alt="React 5" />
+      //     <img src={Reacticon2} className="icon2" alt="React 2" />
+      //     <img src={Reacticon3} className="icon3" alt="React 3" />
            }</section>
        
     </div>

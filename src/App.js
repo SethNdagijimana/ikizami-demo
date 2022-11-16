@@ -9,6 +9,7 @@ import Contact from './components/pages/contact/Contact';
 import Signin from './components/pages/signin/Signin';
 import Signup from './components/pages/signup/Signup';
 import Confirm from './components/pages/signup/Confirm';
+import AdminDashboard from './components/dashboard/AdminDashboard';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <Route path='/signup' element = {<Signup />} />
         <Route path='/signin' element = {<Signin />}  />
         <Route path='/confirm' element = {<Confirm />}  />
+        <Route path='/adminDashboard' element = {<AdminDashboard />}  />
+
 
 
       </Routes>

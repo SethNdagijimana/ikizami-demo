@@ -71,7 +71,7 @@ input:focus {
 }
 
 .login-btn {
-    width: 70%;
+    width: 250px;
     border: 1px solid #9F9F9F;
     height: 45px;
     background: #287BCB;
