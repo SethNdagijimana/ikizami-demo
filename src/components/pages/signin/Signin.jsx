@@ -1,5 +1,6 @@
 import React from "react";
-import "./signin.css"
+import "./signin.css";
+import { Link } from "react-router-dom";
 
 const Signin = () => {
     return (
@@ -11,7 +12,7 @@ const Signin = () => {
             <label className="password">Umubare W'ibanga</label>
             <input type="password" placeholder="password" />
 
-            <button className="login-btn">Injira</button>
+            <Link to="/adminDashboard"><button type="submit" className="login-btn">Injira</button></Link>
             
         </div>
         </div>
